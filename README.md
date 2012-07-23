@@ -35,13 +35,13 @@ Or in a `package.json`:
     "depository": "~0.1.0"
   }
 }
+~~~
 
 Another advantage of using `depository` is that the local NPM cache can be used more efficiently
 for non-published NPM packages, because package dependencies don't need to be downloaded / cloned
 completely (for the purpose of package verification) every time before they can be installed. This
 sometimes can take some time if you want to deploy / update a node application with several private
 dependencies.
-~~~
 
 ## Installation
 
