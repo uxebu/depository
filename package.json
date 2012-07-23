@@ -1,8 +1,11 @@
 {
   "author": "uxebu Inc. (http://uxebu.com/)",
+  "maintainers": [
+    "Tobias von Klipstein tk@uxebu.com"
+  ],
   "name": "depository",
   "description": "A GitHub managed NPM registry with fallback to registry.npmjs.org",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/uxebu/depository",
   "repository": {
     "type": "git",
