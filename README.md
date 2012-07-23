@@ -11,7 +11,7 @@ npm install -g git://github.com/uxebu/depository.git
 
 ## Usage
 
-Starting the server (on port 4337) with public GitHub projects that are watched by user `uxebu`:
+Starting the server (on port 4337) with public GitHub projects that are watched by user `uxebu-system`:
 
 ~~~bash
 depository uxebu-system
