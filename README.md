@@ -23,7 +23,7 @@ Using the server from another shell:
 ~~~bash
 mkdir foo && cd foo
 npm --registry=http://localhost:4337/ install depository colors
-# will download the tarball from GitHub and color from registry.npmjs.org
+# will download the depository-tarball from GitHub and color from registry.npmjs.org
 ~~~
 
 If you want to start the server on a different port or you want to query GitHub differently
