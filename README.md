@@ -11,7 +11,7 @@ npm install -g git@github.com:uxebu/depository.git
 
 ## Usage
 
-Starting the server (port 4337) with public GitHub projects that are watched by user `uxebu`:
+Starting the server (on port 4337) with public GitHub projects that are watched by user `uxebu`:
 
 ~~~bash
 depository uxebu-system
@@ -24,3 +24,11 @@ Using the server from another shell:
 mkdir foo && cd foo
 npm --registry=http://localhost:8000/ install depository colors
 ~~~
+
+If you want to start the server on a different port or you want to query GitHub differently
+check the command-line parameters:
+
+~~~bash
+depository --help
+~~~
+
