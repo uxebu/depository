@@ -1,0 +1,29 @@
+{
+  "author": "uxebu Inc. (http://uxebu.com/)",
+  "name": "depository",
+  "description": "A GitHub managed NPM registry with fallback to registry.npmjs.org",
+  "version": "0.1.0",
+  "homepage": "https://github.com/uxebu/depository",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:uxebu/depository.git"
+  },
+  "bin": {
+    "depository": "./bin/depository.js"
+  },
+  "scripts": {
+    "test": "jasmine-node test"
+  },
+  "main": "./lib/server.js",
+  "dependencies": {
+    "github": "~0.1",
+    "http-proxy": "~0.8",
+    "mimelib-noiconv": "~0.1",
+    "optimist": "~0.3",
+    "semver": "~1.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.0",
+    "jasmine-matchers": "git+ssh://git://github.com/uxebu/jasmine-matchers.git"
+  }
+}
