@@ -6,7 +6,7 @@ to query the original NPM registry if a package is not provided from GitHub.
 ## Installation
 
 ~~~bash
-npm install -g git@github.com:uxebu/depository.git
+npm install -g git://github.com/uxebu/depository.git
 ~~~
 
 ## Usage
