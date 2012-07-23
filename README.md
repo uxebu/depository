@@ -22,7 +22,7 @@ Using the server from another shell:
 
 ~~~bash
 mkdir foo && cd foo
-npm --registry=http://localhost:8000/ install depository colors
+npm --registry=http://localhost:4337/ install depository colors
 ~~~
 
 If you want to start the server on a different port or you want to query GitHub differently
