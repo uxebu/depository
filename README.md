@@ -99,7 +99,3 @@ check the command-line parameters through:
 ~~~bash
 depository --help
 ~~~
-
-## TODO
-
-* provide a reloading mechanism for the GitHub project information
