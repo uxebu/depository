@@ -23,7 +23,8 @@
     "http-proxy": "~0.8",
     "mimelib-noiconv": "~0.1",
     "optimist": "~0.3",
-    "semver": "~1.0"
+    "semver": "~1.0",
+    "colors": "~0.6.0-1"
   },
   "devDependencies": {
     "jasmine-node": "~1.0",
